@@ -5,7 +5,12 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:\\Users\\Administrator\\AppData\\Local\\.xmake\\packages\\l\\lyra\\1.6\\1ab16be4a39c4796a4eb408e2bfd2b35\\include",
-                "C:\\Users\\Administrator\\AppData\\Local\\.xmake\\packages\\f\\folly\\2022.02.14\\493f649452724453b28619e9bf286c3b\\include"
+                "C:\\Users\\Administrator\\AppData\\Local\\.xmake\\packages\\f\\folly\\2022.02.14\\493f649452724453b28619e9bf286c3b\\include",
+                "C:\\Users\\Administrator\\AppData\\Local\\.xmake\\packages\\f\\fmt\\8.1.1\\3c4518782925487388553bdb3459c51d\\include",
+                "C:\\Users\\Administrator\\AppData\\Local\\.xmake\\packages\\b\\boost\\1.78.0\\48aff77bcd3d45498866776d153c2962\\include",
+                "C:\\Users\\Administrator\\AppData\\Local\\.xmake\\packages\\d\\double-conversion\\v3.1.5\\90a2e31c86d345809ef9717d62568526\\include",
+                "C:\\Users\\Administrator\\AppData\\Local\\.xmake\\packages\\g\\glog\\v0.5.0\\0f690093f79143fd820872b81391b4d3\\include",
+                "C:\\Users\\Administrator\\AppData\\Local\\.xmake\\packages\\g\\gflags\\v2.2.2\\b36004dce5104eca99c6a5451320400d\\include"
             ],
             "defines": [
                 "_DEBUG",
