@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\Users\\Administrator\\AppData\\Local\\.xmake\\packages\\l\\lyra\\1.6\\1ab16be4a39c4796a4eb408e2bfd2b35\\include",
+                "C:\\Users\\Administrator\\AppData\\Local\\.xmake\\packages\\f\\folly\\2022.02.14\\493f649452724453b28619e9bf286c3b\\include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "cStandard": "c17",
+            "intelliSenseMode": "windows-msvc-x64",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe",
+            "cppStandard": "c++20"
+        }
+    ],
+    "version": 4
+}

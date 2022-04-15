@@ -1,0 +1,6 @@
+[
+{
+  "directory": "e:\\projects\\cyascript",
+  "arguments": ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/m64", "/Fobuild\\.objs\\cyascript\\windows\\x64\\src\\main.cpp.obj", "src\\main.cpp"],
+  "file": "src\\main.cpp"
+}]
