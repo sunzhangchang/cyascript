@@ -4,6 +4,7 @@
 #include <lyra/lyra.hpp>
 #include <folly/FileUtil.h>
 #include <folly/FBString.h>
+#include <cyascript/cyascript.hpp>
 
 using std::cin;
 using std::cout;
