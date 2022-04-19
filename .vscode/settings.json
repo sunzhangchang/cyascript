@@ -85,6 +85,7 @@
         "xfacet": "cpp",
         "xiosbase": "cpp",
         "xlocbuf": "cpp",
-        "xlocinfo": "cpp"
+        "xlocinfo": "cpp",
+        "regex": "cpp"
     }
 }
