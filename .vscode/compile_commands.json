@@ -1,6 +1,0 @@
-[
-{
-  "directory": "e:\\projects\\cyascript",
-  "arguments": ["cl.exe", "/c", "/EHsc", "/nologo", "/std:c++20", "/Fobuild\\.objs\\cyascript\\windows\\x64\\release\\src\\main.cpp.obj", "src\\main.cpp"],
-  "file": "src\\main.cpp"
-}]
