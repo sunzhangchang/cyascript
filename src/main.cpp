@@ -11,17 +11,17 @@ using std::cout;
 using std::cerr;
 using std::endl;
 
-struct compile_cmd {
+struct run_cmd {
     bool show_help = false;
     folly::fbstring file_path;
 
-    compile_cmd(lyra::cli & cli) {
+    run_cmd(lyra::cli & cli) {
         cli
             .add_argument(
-                lyra::command("compile",
-                    [this](const lyra::group & g) { this->compile(g); }
+                lyra::command("run",
+                    [this](const lyra::group & g) { this->run(g); }
                 )
-                .help("Compile CyaScript source code")
+                .help("Run CyaScript code")
                 .add_argument(
                     lyra::help(show_help)
                 )
@@ -33,7 +33,7 @@ struct compile_cmd {
             );
     }
 
-    void compile(const lyra::group & g) {
+    void run(const lyra::group & g) {
         if (show_help) {
             cout << g << endl;
             exit(0);
@@ -57,7 +57,8 @@ struct compile_cmd {
             exit(1);
         } else {
             // cout << context << endl;
-            ;
+            auto parser = cyascript::CyaScript_Parser();
+            parser.parse(context, file_path.c_str());
         }
     }
 };
@@ -74,7 +75,7 @@ int main(int argc, char** argv) {
             lyra::help(show_help)
         );
 
-    compile_cmd cpl{cli};
+    run_cmd cpl{cli};
 
     auto res = cli.parse({argc, argv});
 
